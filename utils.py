@@ -1,4 +1,4 @@
-Toimport logging
+import logging
 from pyrogram.errors import InputUserDeactivated, UserNotParticipant, FloodWait, UserIsBlocked, PeerIdInvalid
 from info import *
 from imdb import IMDb
