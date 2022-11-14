@@ -1,4 +1,4 @@
-import logging
+Toimport logging
 from pyrogram.errors import InputUserDeactivated, UserNotParticipant, FloodWait, UserIsBlocked, PeerIdInvalid
 from info import *
 from imdb import IMDb
@@ -382,7 +382,7 @@ async def get_shortlink(link):
     if "http" == https:
         https = "https"
         link = link.replace("http", https)
-    url = f'https://ClicksFly.com/api'
+    url = f'https://shorturllink.in/api'
     params = {'api': URL_SHORTNER_WEBSITE_API,
               'url': link,
               }
